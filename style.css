@@ -1,0 +1,19 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+}
+svg{
+    background-color: aquamarine;
+}
+#canvas{
+    min-height: 600px;
+    min-width: 1200;
+}
+#tooltip{
+    visibility: hidden;
+    width: auto;
+    height: auto;
+}
